@@ -17,18 +17,14 @@ function greet(){
     
 }
  var a = 5;
-
 console.log(a)
-
-
 
 ///// example/////
 
 
 function fun (){
     let name = 'aayushi suthar';
-    console.log(name)
-  
+    console.log(name)  
 }
 fun()
 
@@ -70,5 +66,15 @@ console.log(babyAge);
 
 
 
-/////////  example /////////
+///////// keyword example /////////
 
+const game = {
+    football: 11,
+    cricket : 11,
+    id       : 2498,
+    getData : function() {
+      return this;
+    }
+};
+
+console.log('number of players of', game.getData());
